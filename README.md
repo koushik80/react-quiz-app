@@ -5,5 +5,6 @@
 <h3 align="left">Technologies: :computer:</h3>
 <ul>
 <li>React</li>
+<li>React Router DOM</li>
 <li>Firebase</li>
 </ul>
