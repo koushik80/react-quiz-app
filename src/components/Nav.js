@@ -9,7 +9,7 @@ const Nav = () => {
         <li>
           <a href="index.html" className={classes.brand}>
             <img src={logo} alt="devHuß" />
-            <h3>Quiz Application</h3>
+            <h3>devHuß Quiz App</h3>
           </a>
         </li>
       </ul>
