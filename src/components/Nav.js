@@ -10,7 +10,7 @@ const Nav = () => {
           <a href="index.html" className={classes.brand}>
             <img src={logo} alt="devHuß" />
             <div className={classes.wrapper}>
-              <h3>devHuß Quiz App</h3>
+              <h3>devHuß Quiz</h3>
             </div>
           </a>
         </li>
