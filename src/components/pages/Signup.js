@@ -1,3 +1,5 @@
+import classes from "../../styles/Signup.module.css";
+import Form from '../Form';
 import Illustration from "../Illustration";
 
 const Signup = () => {
@@ -5,7 +7,10 @@ const Signup = () => {
     <>
       <h1>Create an account</h1>
       <div className="column">
-         <Illustration />
+        <Illustration />
+        <Form className=
+          {`${classes.signup}`} />
+
 
       </div>
     </>
