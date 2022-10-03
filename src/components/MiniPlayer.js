@@ -1,4 +1,4 @@
-import image from "../assets/images/3.jpg";
+import image from "../assets/images/react3.jpg";
 import classes from "../styles/MiniPlayer.module.css";
 
 const MiniPlayer = () => {
@@ -13,7 +13,7 @@ const MiniPlayer = () => {
         close{" "}
       </span>
       <img src={image} alt="Alt Tag" />
-      <p>#23 React Hooks Bangla - React useReducer hook Bangla</p>
+      <p>Uploading...</p>
     </div>
   )
 }
