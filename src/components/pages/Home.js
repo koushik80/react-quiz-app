@@ -1,5 +1,4 @@
 import Video from "../Videos";
-
 const Home = () => {
   return <Video />;
 };
