@@ -1,0 +1,27 @@
+.announcement {
+  height: 40px;
+  background-color: #21dc9e;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 800;
+  border-radius: 5px;
+  animation: reveal 800ms ease-in-out forwards 20ms,                          
+             glow 1800ms linear infinite 200ms;
+}
+
+@keyframes reveal {
+    80%{
+      letter-spacing: 8px;
+    }
+    100% {
+      background-size: 300% 300%;
+    }
+  }
+  @keyframes glow {
+    70% {
+      text-shadow: 0 0 8px rgb(224, 25, 3);
+    }
+  }
