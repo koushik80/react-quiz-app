@@ -37,7 +37,7 @@ export function AuthProvider({ children }) {
 
         // update profile
         await updateProfile(auth.currentUser, {
-            displayName: username
+            displayName: username,
         });
 
         const user = auth.currentUser; //for updating in local storage
