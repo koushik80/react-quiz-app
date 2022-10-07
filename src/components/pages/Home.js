@@ -1,6 +1,6 @@
-import Video from "../Videos";
+import Videos from "../Videos";
 const Home = () => {
-  return <Video />;
+  return <Videos />;
 };
 
 export default Home;

@@ -3,7 +3,6 @@ import classes from "../styles/Video.module.css";
 
 const Video = () => {
   return (
-    <a href="quiz.html">
       <div className={classes.video}>
         <img src={image} alt="Video Title" />
         <p>Uploading...</p>
@@ -12,7 +11,7 @@ const Video = () => {
           <p>Score : Not taken yet</p>
         </div>
       </div>
-    </a>
+
   );
 };
 
