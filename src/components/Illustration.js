@@ -1,4 +1,4 @@
-import signupImage from "../assets/images/signup.svg";
+import signupImage from "../assets/images/login2.gif";
 import classes from "../styles/Illustration.module.css";
 
 const Illustration = () => {

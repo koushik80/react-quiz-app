@@ -2,7 +2,7 @@
 import classes from '../styles/Announcement.module.css';
 
 const Announcement = () => {
-  return <div className={classes.announcement}>Learn with Sumit</div>;
+  return <div className={classes.announcement}>Under development...</div>;
 };
 
 export default Announcement;

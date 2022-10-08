@@ -1,6 +1,6 @@
 .announcement {
   height: 40px;
-  background-color: #21dc9e;
+  background-color: #40E0D0;
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -8,8 +8,8 @@
   font-size: 16px;
   font-weight: 800;
   border-radius: 5px;
-  animation: reveal 800ms ease-in-out forwards 20ms,                          
-             glow 1800ms linear infinite 200ms;
+  animation: reveal 1800ms ease-in-out forwards 200ms,                                       glow 1800ms linear infinite 200ms;
+  -webkit-animation: reveal 1800ms ease-in-out forwards 200ms,                                       glow 1800ms linear infinite 200ms;
 }
 
 @keyframes reveal {

@@ -4,6 +4,11 @@
 
 .illustration img {
   max-width: 80%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 @media only screen and (max-width: 1023px) {

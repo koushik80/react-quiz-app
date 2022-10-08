@@ -1,4 +1,4 @@
-import image from "../assets/images/success.png";
+import image from "../assets/images/result.gif";
 import classes from "../styles/Summary.module.css";
 
 const Summary = () => {
