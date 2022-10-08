@@ -24,10 +24,16 @@ const Videos = () => {
                   title={video.title}
                   id={video.youtubeID}
                   noq={video.noq}
+                  key={video.youtubeID}
                 />
               </Link>
             ) : (
-              <Video title={video.title} id={video.youtubeID} noq={video.noq} />
+                <Video
+                  title={video.title}
+                  id={video.youtubeID}
+                  noq={video.noq}
+                  key={video.youtubeID}
+                />
             )
           )}
         </InfiniteScroll>
@@ -37,6 +43,6 @@ const Videos = () => {
       {loading && <div>Loading...</div>}
     </div>
   );
-};
+}
 
 export default Videos;
