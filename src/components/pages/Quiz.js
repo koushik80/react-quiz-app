@@ -19,6 +19,7 @@ const reducer = (state, action) => {
         });
       });
       return action.value;
+
     case "answer":
       const questions = _.cloneDeep(state);
       questions[action.questionID].options[action.optionIndex].checked =
@@ -46,6 +47,7 @@ const Quiz = () => {
     });
   }, [questions]);
 
+  // handle changing answer
   function handleAnswerChange(e, index) {
     dispatch({
       type: "answer",
@@ -101,6 +103,7 @@ const Quiz = () => {
           <h1>{qna[currentQuestion].title}</h1>
           <h4>Question can have multiple answers</h4>
           <Answers
+            input
             options={qna[currentQuestion].options}
             handleChange={handleAnswerChange}
           />
