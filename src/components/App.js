@@ -9,6 +9,8 @@ import Result from "./pages/Result";
 import Signup from "./pages/Signup";
 import PrivateRoute from "./PrivateRoute";
 import PublicRoute from "./PublicRoute";
+import SocialFollow from './SocialFollow';
+
 
 function App() {
   return (
@@ -21,9 +23,10 @@ function App() {
           <PublicRoute exact path="/login" component={Login} />
           <PrivateRoute exact path="/quiz/:id" component={Quiz} />
           <PrivateRoute exact path="/result/:id" component={Result} />
-        </Switch>
-      </Layout>
+          </Switch>
+        </Layout>
       </AuthProvider>
+      <div className="socialConnect"><SocialFollow /></div>
     </Router>
   );
 }

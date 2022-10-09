@@ -10,6 +10,8 @@
 <li>React</li>
 <li>CSS</li>
 <li>React Router DOM</li>
+<li>React Player</li>
+<li>FORT AWESOME</li>
 <li>Firebase Authentication</li>
 <li>Firebase Realtime Database</li>
 </ul>

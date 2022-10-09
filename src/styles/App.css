@@ -7,14 +7,14 @@
   --dangerRed: #ffc0c7;
   --questionBG: #e4e8ee;
   --fontPrimary: #002333;
-  --active: #2dbf64;
+  --active: #127337;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: var(--fontPrimary);
+/* color: var(--fontPrimary); */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -84,3 +84,4 @@ p {
     width: 90%;
   }
 }
+
