@@ -2,7 +2,7 @@
 
 <div align="center"><a href="https://quiz-app-dev.netlify.app/">Quiz Application with Youtube</a></div><br>
 
-<h4 align="left">N.B: The backend and JSON file of this project is under development...Right now, I used dummy JSON file</h4>
+<h4 align="left">N.B:This project is under development...Initially, I used one dummy JSON file. Creating one music based JSON file with youtube links and related quizes</h4>
 </div>
 
 ---
