@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-<div align="center"><a href="https://quiz-app-dev.netlify.app/">Quiz Application</a></div><br>
+<div align="center"><a href="https://quiz-app-dev.netlify.app/">Quiz Application with Youtube</a></div><br>
 
 <h4 align="left">N.B: The backend and JSON file of this project is under development...Right now, I used dummy JSON file</h4>
 </div>
@@ -28,6 +28,7 @@
 <li>FORT AWESOME</li>
 <li>Firebase Authentication</li>
 <li>Firebase Realtime Database</li>
+<li>Netlify</li>
 </ul>
 
 ---

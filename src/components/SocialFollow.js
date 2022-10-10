@@ -6,7 +6,7 @@ import "../styles/Social.css";
 const SocialFollow = () => {
   return (
     <div className="social-container">
-      <h3>Let's meet:</h3>
+      <h3>Let’s Connect</h3>
       <div className="social-icons">
         <a href="https://www.youtube.com" className="youtube social">
           <FontAwesomeIcon icon={faYoutube} size="2x" />
