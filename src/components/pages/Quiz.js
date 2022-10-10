@@ -19,7 +19,6 @@ const reducer = (state, action) => {
         });
       });
       return action.value;
-
     case "answer":
       const questions = _.cloneDeep(state);
       questions[action.questionID].options[action.optionIndex].checked =
@@ -39,6 +38,10 @@ const Quiz = () => {
   const [qna, dispatch] = useReducer(reducer, initialState);
   const { currentUser } = useAuth();
   const history = useHistory();
+  const { location } = history;
+  const { state } = location;
+  const { videoTitle } = state;
+
 
   useEffect(() => {
     dispatch({
@@ -113,7 +116,7 @@ const Quiz = () => {
             submit={submit}
             progress={percentage}
           />
-          <MiniPlayer id={id} />
+          <MiniPlayer id={id} title={videoTitle} />
         </>
       )}
     </>
