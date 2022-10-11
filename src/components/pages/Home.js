@@ -3,10 +3,11 @@ import Videos from "../Videos";
 
 const Home = () => {
   return (
-    <>
+  <>
     <div className="announceMessage"><Announcement /></div>
     <Videos />
   </>
+
   );
 };
 
