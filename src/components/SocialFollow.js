@@ -27,7 +27,7 @@ const SocialFollow = () => {
           <FontAwesomeIcon icon={faPinterest} size="2x" />
         </a>
       </div>
-       <div className="power-text"><p>Developed by koushik@devHuß: [ŖąĵŌŋ@ÇąƒÉ ŎŁđįęş]</p>
+       <div className="power-text"><p>Developed by koushik_ŖąĵŌŋ@devHuß</p>
       </div>
     </div>
   );
