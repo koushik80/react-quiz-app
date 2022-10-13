@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+# The project Description goes below here.
 
-<div align="center"><a href="https://quiz-app-dev.netlify.app/">Quiz Application with Youtube</a></div><br>
-
-<h4 align="left">N.B:This project is under development...</h4>
+<div align="center"><a href="https://quiz-app-dev.netlify.app/">Quiz Application with Youtube ID</a></div><br>
 </div>
 
 ---
@@ -43,13 +41,20 @@
 
 <ol type="1">
 
-<li>will be added soon...</li>
-<li></li>
+<li>Users can create an account on this site.</li>
+<li>Users can participate in quizzes.</li>
+<li>Users can select multiple answers.</li>
+<li>Users can move forward to the next quizzes by clicking the button “NEXT QUESTION -->”.</li>
+<li>There is a mini-player in the bottom-right corner of the site. Users can click the play button to watch and listen to music while participating in quizzes.</li>
+<li>Users can go back to previous quizzes by clicking “<--” for correction.</li>
+<li>Users can see the score in percentage in the progress bar.</li>
+<li>When the user completes all quizzes and presses the “SUBMIT QUIZ” button h/she will get the final score in numbers with a random picture depending on the score.And the score will be displayed in a separate dashboard.</li>
+<li>Users can be able to see the correct answers in green and the wrong answers in red color.</li>
+<li>At last, users can log out from the site.</li>
 
 </ol>
 
 ---
-
 
 ---
 
@@ -60,6 +65,5 @@
 <li><a href="https://www.pexels.com/api/documentation/#photos-search"></a>Pexels Documentation</li>
 
 </ul>
-
 
 ---
