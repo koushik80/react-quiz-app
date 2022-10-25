@@ -60,9 +60,9 @@
 
 <h3 align="left">References: :paperclips:</h3>
 <ul>
-<li><a href="https://www.youtube.com/c/LearnwithSumit"></a>Learn with Sumit - LWS - Bangladesh</li>
-<li><a href="https://unsplash.com/s/photos/jpg"></a>Unsplash</li>
-<li><a href="https://www.pexels.com/api/documentation/#photos-search"></a>Pexels Documentation</li>
+<li><a href="https://www.youtube.com/c/LearnwithSumit">Learn with Sumit - LWS - Bangladesh</a></li>
+<li><a href="https://unsplash.com/s/photos/jpg">Unsplash</a></li>
+<li><a href="https://www.pexels.com/api/documentation/#photos-search">Pexels Documentation</a></li>
 
 </ul>
 
