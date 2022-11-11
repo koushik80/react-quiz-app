@@ -1,6 +1,6 @@
 # The project Description goes below here.
 
-<div align="center"><a href="https://quiz-app-dev.netlify.app/">Quiz Application with Youtube ID</a></div><br>
+<div align="center"><a href="https://quiz-app-dev.netlify.app/">ÇąƒÉ ŎŁđįęş Live Music & Quiz</a></div><br>
 </div>
 
 ---
